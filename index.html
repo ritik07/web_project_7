@@ -32,32 +32,43 @@
         scroll-behavior: smooth;
     }
     
-    .bg-black {
-        background-color: #000000;
+    .bg-custom {
+        background-color: #000000de;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        /* css for mobile here */
     }
 </style>
 
 <body class="goto-here">
-    <!-- <nav class="navbar navbar-light navbar-expand-md sticky-top" style="background-color: #000000;">
-        <div class="container-fluid"><a class="navbar-brand" href="#" style="color: rgba(255,255,255,0.9);">Logo</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="background-color: #ffffff;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div <ul class="nav navbar-nav">
-                <li class="nav-item" role="presentation"><a class="nav-link active" href="#" style="color: rgba(255,255,255,0.9);">Home</a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgba(255,255,255,0.75);">About us</a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgba(255,255,255,0.75);">Products</a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgba(255,255,255,0.75);">Contact</a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: rgba(255,255,255,0.75);">Wish List</a></li>
+
+    <nav class="navbar navbar-light navbar-expand-md sticky-top" style="background-color: #000000b6;">
+        <div class="container-fluid"><a class="navbar-brand" href="#" style="color: rgba(255,255,255,0.9);">Logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation" style="color: #fff;">
+                <span class="oi oi-menu"></span> Menu
+              </button>
+            <div class="collapse navbar-collapse mobileColour" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="index.html" style="color: #fff;padding: 10px;" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" style="color: #fff;padding: 10px;" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="products.html" style="color: #fff;padding: 10px;" class="nav-link">Products</a></li>
+                    <li class="nav-item"><a href="#contact" style="color: #fff;padding: 10px;" class="nav-link">Contact</a></li>
+                    <li class="nav-item cta cta-colored"><a href="cart.html" class="nav-link" style="color: #fff;padding: 10px;">Wishlist <span style="color: #fff;" class="icon-shopping_cart"></span></a></li>
                 </ul>
             </div>
         </div>
-    </nav> -->
-    <nav class="navbar navbar-expand-lg navbar-light ftco_navbar bg-black sticky-top" id="ftco-navbar">
+    </nav>
+
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light ftco_navbar bg-custom sticky-top" id="ftco-navbar">
         <div class="container" style="height: 80px;">
             <a class="navbar-brand" href="index.html" style="color: #fff;">SimplyMad</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation" style="color: #fff;">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
-            <div class="collapse navbar-collapse  bg-black" id="ftco-nav" style="background-color: #000000;width: 100%;">
+            <div class="collapse navbar-collapse  bg-custom" id="ftco-nav" style="width: 100%;">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active"><a href="index.html" style="color: #fff;padding: 10px;" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="#about" style="color: #fff;padding: 10px;" class="nav-link">About</a></li>
@@ -68,7 +79,7 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> -->
     <!-- END nav -->
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-touch="true">
